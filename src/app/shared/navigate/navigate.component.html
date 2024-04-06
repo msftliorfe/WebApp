@@ -1,3 +1,3 @@
-<a [routerLink]="[routeToParams.url]">
-    <span i18n>{{routeToParams.text}}</span>
+<a *ngIf="inner" [routerLink]="[url]">
+    <span i18n>{{text}}</span>
 </a>

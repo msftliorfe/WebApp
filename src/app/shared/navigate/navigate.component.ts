@@ -1,12 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
-export interface RouteToParams{
-  url:string;
-  text:string;
-  inner:boolean
-}
-
 @Component({
   selector: 'app-navigate',
   standalone: true,
@@ -15,7 +9,9 @@ export interface RouteToParams{
   styleUrl: './navigate.component.scss'
 })
 export class NavigateComponent {
-  @Input() routeToParams!:RouteToParams;
+  @Input() url!:string;
+  @Input() text!:string;
+  @Input() inner!:boolean;
 
   constructor(private router: Router) {
     
