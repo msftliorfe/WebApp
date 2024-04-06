@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject, LOCALE_ID } from '@angular/core';
 
 @Component({
   selector: 'app-lang',
@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './lang.component.scss'
 })
 export class LangComponent {
+  
+  constructor(@Inject(LOCALE_ID) private locale: string) {
+    
+  }
+public get changeTo(): any{
+  return $localize `${this.locale=='en'? 'hebrew':'english'}`
+}
 
 }

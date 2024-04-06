@@ -1,3 +1,6 @@
-<a *ngIf="inner" [routerLink]="[url]">
-    <span i18n>{{text}}</span>
+<a *ngIf="inner" [routerLink]="url">
+    <span>{{text}}</span>
+</a>
+<a *ngIf="!inner" target="_blank" href="{{url}}">
+    <span>{{text}}</span>
 </a>
