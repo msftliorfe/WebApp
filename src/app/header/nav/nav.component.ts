@@ -11,5 +11,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './nav.component.scss'
 })
 export class NavComponent {
-  menuItems:string[]=menuItems;
+  menuItems:{name:string,url:string}[]=menuItems;  
 }

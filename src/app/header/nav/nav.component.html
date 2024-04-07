@@ -1,4 +1,4 @@
 <nav>
-  <a i18n *ngFor="let menuItem of menuItems" [routerLink]="menuItem" routerLinkActive="active"
-    ariaCurrentWhenActive="page">{{menuItem}}</a>
+  <a i18n *ngFor="let menuItem of menuItems" [routerLink]="menuItem.url" routerLinkActive="active"
+    ariaCurrentWhenActive="page">{{menuItem.name}}</a>
 </nav>
