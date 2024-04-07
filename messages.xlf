@@ -2,11 +2,113 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{changeTo}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/lang/lang.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/nav/nav.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454585109426937667" datatype="html">
+        <source>heb</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/lang/lang.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5919870367344475340" datatype="html">
+        <source>eng</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/lang/lang.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="8083197275237391500" datatype="html">
         <source>noya schleien</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/title/title.component.html</context>
           <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4976935068632868195" datatype="html">
+        <source>home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5403809691768700622" datatype="html">
+        <source>concerts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5215642686765416836" datatype="html">
+        <source>lectures</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7099770320385771384" datatype="html">
+        <source>workshops</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8942955470569122520" datatype="html">
+        <source>book</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2164343869030743394" datatype="html">
+        <source>bio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5178138591256693636" datatype="html">
+        <source>videos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1039244001477272225" datatype="html">
+        <source>gallery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7366879854446681438" datatype="html">
+        <source>communities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5207119361253351218" datatype="html">
+        <source>news</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3806046460695773495" datatype="html">
+        <source>contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/const.ts</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
     </body>

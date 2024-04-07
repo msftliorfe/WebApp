@@ -12,8 +12,12 @@ export class LangComponent {
   constructor(@Inject(LOCALE_ID) private locale: string) {
     
   }
-public get changeTo(): any{
-  return $localize `${this.locale=='en'? 'hebrew':'english'}`
+  
+public get changeTo(): string{
+  const heb= $localize `heb`;
+  const eng= $localize `eng`;
+ 
+  return this.locale=='en'? heb:eng
 }
 
 }
