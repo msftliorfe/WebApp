@@ -1,4 +1,38 @@
-<nav>
-  <a i18n *ngFor="let menuItem of menuItems" [routerLink]="menuItem.url" routerLinkActive="active"
+
+
+<ul class="rd-navbar-nav">
+  <li  *ngFor="let menuItem of menuItems" [class.active]="currentUrl==menuItem.url" class="rd-nav-item "><a class="rd-nav-link" [routerLink]="menuItem.url" routerLinkActive="active"
     ariaCurrentWhenActive="page">{{menuItem.name}}</a>
-</nav>
+  </li>
+</ul>
+
+
+
+
+<!-- <header class="section page-header">
+  RD Navbar
+  <div class="rd-navbar-wrap" style="position: absolute; height: 67.5px;">
+    <nav class="rd-navbar rd-navbar-classic rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+      <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1 toggle-original" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+      <div class="rd-navbar-main-outer">
+        <div class="rd-navbar-main">
+          RD Navbar Panel
+          <div class="rd-navbar-main-element">
+            <div class="rd-navbar-nav-wrap toggle-original-elements"> -->
+              <!-- <ul class="rd-navbar-nav">
+                <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                </li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                </li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
+                </li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                </li>
+              </ul> -->
+            <!-- </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header> -->
