@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from '@/header/header.component';
 import { ContentComponent } from '@/content/content.component';
 import { FooterComponent } from '@/footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
@@ -14,4 +14,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
   title = 'App';
+
+    constructor(private modalService: NgbModal) {
+  }
+
+  public open(modal: any): void {
+    this.modalService.open(modal);
+  }
 }

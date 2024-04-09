@@ -1,7 +1,7 @@
 
-<header class="section page-header">
+<!-- <header class="section page-header"> -->
     <!-- RD Navbar -->
-    <div class="rd-navbar-wrap" style="position: absolute; height: 67.5px;">
+    <!-- <div class="rd-navbar-wrap" style="position: absolute; height: 67.5px;">
         <nav class="rd-navbar rd-navbar-classic rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed"
             data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
             data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
@@ -11,9 +11,9 @@
             <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1 toggle-original"
                 data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
             <div class="rd-navbar-main-outer">
-                <div class="rd-navbar-main">
+                <div class="rd-navbar-main"> -->
                     <!-- RD Navbar Panel -->
-                    <div class="rd-navbar-main-element">
+                    <!-- <div class="rd-navbar-main-element">
                         <div class="rd-navbar-nav-wrap toggle-original-elements">
                             <app-nav></app-nav>
                         </div>
@@ -25,4 +25,50 @@
             </div>
         </nav>
     </div>
-</header>
+</header> -->
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav"> -->
+      <!-- <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul> -->
+
+      <!-- <app-nav></app-nav> -->
+      <!-- <ul class="navbar-nav">
+        <li  *ngFor="let menuItem of menuItems"class="nav-item"><a class="nav-link" [routerLink]="menuItem.url" routerLinkActive="active"
+          ariaCurrentWhenActive="page">{{menuItem.name}}</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <app-nav></app-nav>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
